@@ -15,6 +15,19 @@ are in place to replace their purpose.
 */
 
 
+#include "Models/course_list.h"
+#include "Models/globals.h"
+#include "Models/topic.h"
+
+
+
+/* Replace usage */
+// static List<int> ToStudy = new List<int>();
+// static List<TopicModel> TopicsList = new List<TopicModel>();
+// static List<TopicModel> topics = new List<TopicModel>();
+// static Globals globals = new Globals();
+
+
 
 // Get the date of the start of the study session
 void GetTheDate(void)
