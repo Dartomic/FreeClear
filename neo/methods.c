@@ -15,9 +15,7 @@ are in place to replace their purpose.
 */
 
 
-#include "Models/course_list.h"
 #include "Models/globals.h"
-#include "Models/topic.h"
 
 
 
