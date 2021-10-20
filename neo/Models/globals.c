@@ -1,4 +1,8 @@
-﻿// /*TODO: Correct how I named osSwitch, to OsSwitch */
+﻿/* Probably going to use structs here to replace these parts */
+
+
+
+
 // bool osSwitch; // True if Linux, false if Windows. This is needed to store files correctly, so this app can be used in both operating systems.
 // string DirectoryPath;
 // string DirectoryExists;
