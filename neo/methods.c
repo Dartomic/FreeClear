@@ -16,14 +16,8 @@ are in place to replace their purpose.
 
 
 #include "Models/globals.h"
-
-
-
-/* Replace usage */
-// static List<int> ToStudy = new List<int>();
-// static List<TopicModel> TopicsList = new List<TopicModel>();
-// static List<TopicModel> topics = new List<TopicModel>();
-// static Globals globals = new Globals();
+#include "methods.h"
+#include <time.h>
 
 
 
@@ -76,12 +70,12 @@ void Windows(void)
 }
 void StartUp(void)
 {
-    // CheckForCountFile(); // Check for file that holds number of courses
-    // MainMenu();
+    CheckForCountFile(); // Check for file that holds number of courses
+    MainMenu();
 }
 void CheckForCountFile(void)
 {
-    // const string ZERO = "0";
+    const char ZERO = '0';
     // string filename;
     // string path;
     // string courseCount;
@@ -108,7 +102,6 @@ void CheckForCountFile(void)
 }
 void MainMenu(void)
 {
-    // const int ZERO = 0;
     // if (globals.CourseCount > ZERO)
     // {
     //     ReadyMenu();
@@ -120,8 +113,7 @@ void MainMenu(void)
 }
 void ZeroMenu(void)
 {
-    // const int ZERO = 0;
-    // int selectionInt;
+    int selectionInt;
     // string selection;
     // bool madeSelect = false;
     // Console.WriteLine("\n\n1: Exit the program");
@@ -158,8 +150,7 @@ void ZeroMenu(void)
 }
 void ReadyMenu(void)
 {
-    // const int ZERO = 0;
-    // int selection;
+    int selection;
     // string selectionString;
     // bool madeSelect = false;
     // Console.WriteLine("\n\n1: Exit the program");
@@ -210,27 +201,40 @@ void ReadyMenu(void)
 }
 void CreateCourse(void)
 {
-    // // increment the course count after the course file containing the topic names
-    // // is created AND/OR updated.
-    // const int ONE = 1;
-    // const int ZERO = 0;
-    // const double ZERO_DOUBLE = 0;
-    // const string ZERO_STRING = "0";
-    // int chapterLoop = ZERO;
-    // int chaptersInt = ZERO;
-    // int topicCounter = ZERO;
-    // string topicCountString = ZERO_STRING;
-    // int topicLoop = ZERO;
-    // int subSectionCounter = ZERO;
-    // string subSectionString = ZERO_STRING;
-    // int subLoop = ZERO;
+    /* TODO: divide this function into smaller functions that are called here */
+
+
+    // increment the course count after the course file containing the topic names
+    // is created AND/OR updated.
+    const double ZERO_DOUBLE = 0;
+    const char ZERO_STRING = '0';
+    int chapterLoop = ZERO;
+    int chaptersInt = ZERO;
+    int topicCounter = ZERO;
+    char topicCountString;
+    int topicLoop = ZERO;
+    int subSectionCounter = ZERO;
+    char subSectionString;
+    int subLoop = ZERO;
+    int topicID = ZERO;
+
+
+
+    chapterLoop = ZERO;
+    chaptersInt = ZERO;
+    topicCounter = ZERO;
+    topicCountString = ZERO_STRING;
+    topicLoop = ZERO;
+    subSectionCounter = ZERO;
+    subSectionString = ZERO_STRING;
+    subLoop = ZERO;
     // string filePath;
     // globals.TopicCount = ZERO;
-    // int topicID = ZERO;
+    topicID = ZERO;
 
-    // Console.WriteLine("\n\n\n\n\nWhat is the name of the course? ");
+    printf("\n\n\n\n\nWhat is the name of the course? ");
     // globals.CourseName = Console.ReadLine();
-    // Console.WriteLine("\n\n\n\n\nHow many chapters are in the text book? ");
+    printf("\n\n\n\n\nHow many chapters are in the text book? ");
     // globals.CourseChapters = Console.ReadLine();
 
     // chaptersInt = Convert.ToInt32(globals.CourseChapters);
@@ -371,7 +375,6 @@ void CreateCourse(void)
 }
 void AddCourseToList(void)
 {
-    // const int ONE = 1;
     // string filePath;
     // string filePath2;
     // string courseFilePath;
@@ -404,7 +407,6 @@ void AddCourseToList(void)
 }
 void SelectCourse(void)
 {
-    // const int ONE = 1;
     // string filePath;
     // string selectionString;
     // int selectionInt;
@@ -469,11 +471,13 @@ void SelectCourse(void)
 }
 void StudyCourse(void)
 {
+    /* TODO: divide this function into smaller functions that are called here */
+
+
+
     // /*Start of section from LoadTopicIDs*/
-    // const int ZERO = 0;
-    // const int ONE = 1;
     // const string TRUE = "True";
-    // int index;
+    int index;
     
     // /*
     //     Take the date stored from program iniitialization.
@@ -482,7 +486,7 @@ void StudyCourse(void)
     // DateTime topicDate;
     
     
-    // int dateCompare;
+    int dateCompare;
     // string dateAsString;
     // string filePath = globals.FilePath;
     // string topStudString;
@@ -645,53 +649,68 @@ void StudyCourse(void)
 }
 void CalculateLearning(void)
 {
-    // const double ONE = 1;
-    // AddRepetition();
+    double ithRepetition;
+    AddRepetition();
 
-    // double ithRepetition = TopicsList.ElementAt(globals.TopicID).Top_Repetition;
-    // if (ithRepetition == ONE)
-    // {
-    //     TopicDifficulty();
-    // }
+    // ithRepetition = TopicsList.ElementAt(globals.TopicID).Top_Repetition;
+    if (ithRepetition == ONE)
+    {
+        TopicDifficulty();
+    }
 
-    // IntervalTime();
-    // EngramStability();
-    // EngramRetrievability();
-    // ProcessDate();
+    IntervalTime();
+    EngramStability();
+    EngramRetrievability();
+    ProcessDate();
 }
 void AddRepetition(void)
 {
-    // const double ONE = 1;
+    double ithRepetition;
     // double ithRepetition = TopicsList.ElementAt(globals.TopicID).Top_Repetition;
 
-    // ithRepetition = ithRepetition + ONE;
+    ithRepetition = ithRepetition + ONE;
     // TopicsList.ElementAt(globals.TopicID).Top_Repetition = ithRepetition;
 }
 void TopicDifficulty(void)
 {
-    // // Since intervalTime multiplies against difficulty, and difficulty is set only once
-    // // then a topic could be scheduled every day for a long time if too close to 1.0, and too 
-    // // far apart if above 2.5
+    /*
+    Since intervalTime multiplies against difficulty, and difficulty is set only once
+    then a topic could be scheduled every day for a long time if too close to 1.0, and too 
+    far apart if above 2.5
+    */
 
-    // const double LOW_DIFFICULTY = 2.5;
-    // const double HIGH_DIFFICULTY = 1.3;
-    // double rise = LOW_DIFFICULTY - HIGH_DIFFICULTY;
-    // double totalProblems = TopicsList.ElementAt(globals.TopicID).Num_Problems;
-    // double correctProblems = TopicsList.ElementAt(globals.TopicID).Num_Correct;
-    // double run = totalProblems;
-    // double slope = rise / run;
-    // double difficulty = (slope * correctProblems) + HIGH_DIFFICULTY; // Slope-Intercept formula y = mx + b
+    const double LOW_DIFFICULTY = 2.5;
+    const double HIGH_DIFFICULTY = 1.3;
+    double rise;
+    double totalProblems;
+    double correctProblems;
+    double run;
+    double slope;
+    double difficulty;
+
+
+    rise = LOW_DIFFICULTY - HIGH_DIFFICULTY;
+    // totalProblems = TopicsList.ElementAt(globals.TopicID).Num_Problems;
+    // correctProblems = TopicsList.ElementAt(globals.TopicID).Num_Correct;
+    run = totalProblems;
+    // slope = rise / run;
+    // difficulty = (slope * correctProblems) + HIGH_DIFFICULTY; // Slope-Intercept formula y = mx + b
 
     // TopicsList.ElementAt(globals.TopicID).Top_Difficulty = difficulty; // Write difficulty to student record file Difficulty column
 }
 void IntervalTime(void)
 {
-    // const double ONE = 1;
-    // const double SINGLE_DAY = 1440; // 1440 is the quatity in minutes of a day. I'm using minutes, instead of whole days, to be more precise.
-    // double difficulty = TopicsList.ElementAt(globals.TopicID).Top_Difficulty;
-    // double ithRepetition = TopicsList.ElementAt(globals.TopicID).Top_Repetition;
-    // double intervalRemaining = TopicsList.ElementAt(globals.TopicID).Interval_Remaining;
-    // double intervalLength = TopicsList.ElementAt(globals.TopicID).Interval_Length;
+    const double ONE = 1;
+    const double SINGLE_DAY = 1440; // 1440 is the quatity in minutes of a day. I'm using minutes, instead of whole days, to be more precise.
+    double difficulty;
+    double ithRepetition;
+    double intervalRemaining;
+    double intervalLength;    
+    
+    // difficulty = TopicsList.ElementAt(globals.TopicID).Top_Difficulty;
+    // ithRepetition = TopicsList.ElementAt(globals.TopicID).Top_Repetition;
+    // intervalRemaining = TopicsList.ElementAt(globals.TopicID).Interval_Remaining;
+    // intervalLength = TopicsList.ElementAt(globals.TopicID).Interval_Length;
 
     // //     Second repetition will occur the next day. 
     // //	   Although, the research document does not precisely
@@ -699,26 +718,29 @@ void IntervalTime(void)
     // //	   values of the two variables may need to be changed, 
     // //	   if the spacing is too far apart.
 
-    // if (ithRepetition == ONE)
-    // {
-    //     // The researech document says that s == r @ 1st repetition
-    //     intervalRemaining = SINGLE_DAY;
-    //     intervalLength = SINGLE_DAY;
-    // }
-    // else
-    // {
-    //     intervalLength = intervalLength * difficulty;
-    // }
+    if (ithRepetition == ONE)
+    {
+        // The researech document says that s == r @ 1st repetition
+        intervalRemaining = SINGLE_DAY;
+        intervalLength = SINGLE_DAY;
+    }
+    else
+    {
+        intervalLength = intervalLength * difficulty;
+    }
 
-    // intervalRemaining = intervalLength;
+    intervalRemaining = intervalLength;
     // TopicsList.ElementAt(globals.TopicID).Interval_Length = intervalLength; // Write intervalLength to student record Interval.
     // TopicsList.ElementAt(globals.TopicID).Interval_Remaining = intervalRemaining; // Write remainingTime to student record file RTime column
 
 }
 void EngramStability(void)
 {
-    // const double KNOWLEDGE_LINK = -0.0512932943875506;
-    // const double NEGATIVE_ONE = -1;
+    const double KNOWLEDGE_LINK = -0.0512932943875506;
+    const double NEGATIVE_ONE = -1;
+    double intervalRemaining;
+    double intervalLength;
+    double stabilityOfEngram;
 
     // // remainingTime and intervalLength represent the variables r and s, respectively, from the research document.
     // double intervalRemaining = TopicsList.ElementAt(globals.TopicID).Interval_Remaining;
@@ -731,20 +753,30 @@ void EngramStability(void)
 }
 void EngramRetrievability(void)
 {
-//     const double NEGATIVE_ONE = -1;
-//     double intervalLength = TopicsList.ElementAt(globals.TopicID).Interval_Length;
-//     double intervalRemaining = TopicsList.ElementAt(globals.TopicID).Interval_Remaining;
-//     double stabilityOfEngram = TopicsList.ElementAt(globals.TopicID).Engram_Stability;
-//     double power = NEGATIVE_ONE * (intervalLength - intervalRemaining) / stabilityOfEngram;
-//     double retrievability = Math.Exp(power);
+    const double NEGATIVE_ONE = -1;
+    double intervalLength;
+    double intervalRemaining;
+    double stabilityOfEngram;
+    double power;
+    double retrievability;
+
+
+//     intervalLength = TopicsList.ElementAt(globals.TopicID).Interval_Length;
+//     intervalRemaining = TopicsList.ElementAt(globals.TopicID).Interval_Remaining;
+//     stabilityOfEngram = TopicsList.ElementAt(globals.TopicID).Engram_Stability;
+//     power = NEGATIVE_ONE * (intervalLength - intervalRemaining) / stabilityOfEngram;
+//     retrievability = Math.Exp(power);
 
 //     TopicsList.ElementAt(globals.TopicID).Engram_Retrievability = retrievability;
 }
 void ProcessDate(void)
 {
-    // const double SINGLE_DAY = 1440;
-    // double intervalLength = TopicsList.ElementAt(globals.TopicID).Interval_Length;
-    // double days = Convert.ToInt32(intervalLength / SINGLE_DAY);
+    const double SINGLE_DAY = 1440;
+    double intervalLength;
+    double days;
+
+    // intervalLength = TopicsList.ElementAt(globals.TopicID).Interval_Length;
+    // days = Convert.ToInt32(intervalLength / SINGLE_DAY);
     // DateTime today = DateTime.Parse(globals.TheDate);
     // DateTime nextDate = today.AddDays(days);
     // string nextDateString = nextDate.ToString("d");
@@ -782,6 +814,6 @@ void SaveProgress(void)
     //     File.WriteAllLines(filePath, output);
     // }
 
-    // Console.WriteLine("Work Saved.");
+    printf(\n"Work Saved.\n");
     // Console.ReadLine();
 }

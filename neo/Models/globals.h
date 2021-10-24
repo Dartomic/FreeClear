@@ -1,5 +1,6 @@
 /* Probably going to use structs here to replace these parts */
-
+#define ONE     1
+#define ZERO    0
 
 
 
