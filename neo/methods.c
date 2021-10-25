@@ -75,7 +75,7 @@ void StartUp(void)
 }
 void CheckForCountFile(void)
 {
-    const char ZERO = '0';
+    const char ZERO_CHAR = '0';
     // string filename;
     // string path;
     // string courseCount;
@@ -95,7 +95,7 @@ void CheckForCountFile(void)
     // }
     // catch
     // {
-    //     File.WriteAllText(path, ZERO);
+    //     File.WriteAllText(path, ZERO_CHAR);
     //     courseCount = File.ReadAllText(path);
     //     globals.CourseCount = Convert.ToInt32(courseCount);
     // }
@@ -700,7 +700,7 @@ void TopicDifficulty(void)
 }
 void IntervalTime(void)
 {
-    const double ONE = 1;
+    const double ONE_DOUBLE = 1;
     const double SINGLE_DAY = 1440; // 1440 is the quatity in minutes of a day. I'm using minutes, instead of whole days, to be more precise.
     double difficulty;
     double ithRepetition;
@@ -718,7 +718,7 @@ void IntervalTime(void)
     // //	   values of the two variables may need to be changed, 
     // //	   if the spacing is too far apart.
 
-    if (ithRepetition == ONE)
+    if (ithRepetition == ONE_DOUBLE)
     {
         // The researech document says that s == r @ 1st repetition
         intervalRemaining = SINGLE_DAY;
@@ -814,6 +814,6 @@ void SaveProgress(void)
     //     File.WriteAllLines(filePath, output);
     // }
 
-    printf(\n"Work Saved.\n");
+    printf("\nWork Saved.\n");
     // Console.ReadLine();
 }
