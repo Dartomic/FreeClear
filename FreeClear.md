@@ -224,74 +224,24 @@ interests such as:
 
 # Why this new program will always be free
 
-We live in a world that has had very in depth scientific research available on the cognitive science 
-on learning and behavior since before the invention of the electronic computer, and that body of 
-knowledge has only grown. Before electronic computers became a feasible option to implement this 
-research to easily give mass numbers of people a very high level of education, primitive tools were 
-invented to implement some of this research, mostly by a scientist named Burrhus Frederic Skinner, 
-and the results were excellent. Yet, here we are today. We have extremely powerful computers that 
-fit in our pockets, and a mountain of research that could be implemented in the education of people. 
-Almost none of that research is being implemented in the education of people. Instead; we have been 
-stuck with a society that values subjecting children to attending a part time prison for at least 13 
-years of their lives, to learn material that could be obtained in less than 2 years. The societies of 
-the world look at these extraordinarily expensive institutions, like Harvard, or Yale, as the Penacle 
-of education, when all of the information that the students in these institution obtain could be gained 
-for very little money, and often times no money at all. Our society's least desirable "educational" 
-institutes, community colleges, are able to reject perfectly capable people, who score very highly on 
-their entrance exam, from gaining admittance due to a lack of a piece of paper issued in the form of a
-G.E.D.. I have been rejected for this very reason myself. All publically available institutes in the 
-U.S.A. charge an insanely high amount of money, at a ratio that is ever increasing, to that of minimum 
-wage. 
+We live in a world that has had very in depth scientific research available on the cognitive science on learning and behavior since before the invention of the electronic computer, and that body of knowledge has only grown. Before electronic computers became a feasible option to implement this growing body of research, to easily give mass numbers of people a very high level of education, a mechanical tool was invented to implement some of this research, by a scientist named Burrhus Frederic Skinner, and the results were great. Yet; here we are today. We have extremely powerful computers that fit in our pockets, and a mountain of research that could be implemented in the education of people. Almost none of that research is being implemented in the education of people. Instead; we have been stuck with a society that values subjecting children to attending what amounts to a part time prison, for at least 13 
+years of their lives, to learn material that could be obtained in less than 2 years. The societies of the world look at extraordinarily expensive institutions, like Harvard, or Yale, as the Penacle of education, when all of the information that the students in these institution obtain could be gained for very little money, and often times no money at all. Our society's least desirable "educational" institutes, community colleges, are able to reject perfectly capable people who score very highly on their entrance exams, from gaining admittance due to a lack of a piece of paper issued in the form of a G.E.D., or a high school diploma. I have been rejected for this very reason myself. All publically available institutes in the U.S.A. charge an insanely high amount of money, at a ratio that is ever increasing, to that of minimum wage. This means it is increasingly becoming more difficult, and impossible for some people, to find their way out of a life of poverty, along with several other rammifications.
+
+The methods used to "teach" people are incredibly out dated. Part of the current method can trace its roots to a time when information was passed in verbal form, due to the invention of paper not having occurred yet. Now that we have had the technology of a writing utencil and ample supply of paper, along with the printing press that allow people to have zero reason to pay attention to a lecturer once they know how to read, as well as a massive body of research on the science of learning, along with extremely powerful computer systems that have been available to households since the late 1970's, which were perfectly powerful enough to, and those same ones still are, capable of being programmed to deliver an education better than that at our society's most valued educational institutes on the planet. Most people are still having to pay a high financial cost to sit in a room, watch a person say words that they could have just read in the first place, and often times forced to wait until the very last week of a classes, or later, to recieve feedback to learn how well they are doing so that they can adjust to perform better--- well it's too late at that point.
 
 
-The methods used to "teach" people are incredibly out dated. Part of the current method can trace its roots 
-to a time when information was passed in verbal form, due to the invention of paper not having occurred yet.
-Now that we have had the technology of a writing utencil and ample supply of paper, along with the printing 
-press that allow people to have zero reason to pay attention to a lecturer once they know how to read, as 
-well as a massive body of research on the science of learning, along with extremely powerful computer systems 
-that have been available to households since the late 1970's, which were perfectly powerful enough to, and 
-those same ones still are, capable of being programmed to deliver an education better than that at our 
-society's most valued educational institutes on the planet. Most people are still having to pay a high 
-financial cost to sit in a room, watch a person say words that they could have just read in the first place, 
-and often times forced to wait until the very last week of a class, or later, to recieve feedback to learn 
-how well they are doing so that they can adjust to perform better--- well it's too late at that point.
+Even the countries that charge the students nothing to gain an education in their nation have a lot of these same problems, the only benefit is that the student did not lose out on money, along with the several months they will never get back of their lives. To make things worse, only part of the oral tradition is implemented in the educational institutes. The methods of memorization that were taught to allow people to retain what they learned, when the spoken word was the only tool that they had for the recodring of information, is no where to be found in our educational institutes. 
+
+Today; the majority of the population feels stupid--- because it is. The stupidity that plagues our species is largely due to the education systems, and the people who profit off of keeping people ignorant, keeping people stuck with paying more than everything they have ever made, and sometimes ever will make, causing some people who could prosper in the thing that requires education, to lose hope in digging themselves out of poverty. This situation causes some very smart people to become something more than bitter. An extreme example of this situation causing "something more than bitter," many would use the word "crazy," or even "evil," is of a man who was as far into poverty as a person can be in society. He was homeless. But he made money by selling paintings he made. He wanted to be a better artist, but was rejected by the art school, due to him not having the right "papers," but not due to any lack in talent. Had this man been accepted into the school, then The Hollocaust very likely never would have happened, because the man in this example was Adolf Hitler. It was easier for him to go from being homeless, to nearly conquering the entire planet, than it was for him to go from being homeless, to getting an education. While this example is extreme; it shows that the set of circumstances of having education only available as a business model that filters out the people who need it the most,
+has very real consequences for everyone in the world. 
 
 
-Even the countries that charge the students nothing to gain an education in their nation have a lot of these same 
-problems, the only benefit is that the student did not lose out on money, along with the several months they will 
-never get back of their lives.
+The problem that gives rise to higher education being available only to those who can afford it, and the current system not implementing any of the research available to greatly increase the likelihood that students aquire the knowledge that they need, is corruption. No more. We are dealing with a system that only profits because of ignorance. It needs to be crushed. This is the start of that effort. In order for this to be successful, this software must grow to offer the HIGHEST POSSIBLE QUALITY of education that will be known to have ever existed, and it can not cost a single penny. People are going to be able to finally learn that which the system has been keeping them from learning.
 
-To make things worse, only part of the oral tradition is implemented in the educational institutes. The methods of 
-memorization that were taught to allow people to retain what they learned, when the spoken word was the only tool 
-that they had for the recodring of information, is no where to be found in our educational institutes. Today, the 
-majority of the population feels stupid--- because it is. The stupidity that plagues our species is largely due to 
-the education systems, and the people who profit off of keeping people ignorant, keeping people stuck with paying 
-more than everything they have ever made, and sometimes ever will make, in hope of digging themselves out of poverty.
-
-
-
-No more. We are dealing with a system of stupid, and oppression. It needs to be crushed. This is the start of that 
-effort. In order for this to be successful, this software must grow to offer the HIGHEST POSSIBLE QUALITY of education 
-that will be known to have ever existed, and it can not cost a single penny! I want to watch the "education system" 
-fall to pieces, I want to see all of these people involved in one of the most massive scale scam operations known to 
-man, lose their jobs, and I mean every single one of them. I want to see the people who run these institutions go 
-into debt, and fall into that same pit they have been keeping people from finding their way out of, due to their
-incredible amount of greed. The satisfaction of knowing this scam of a system is finally going to fall to pieces, 
-because people are going to be able to finally learn that which the system has been keeping them from learning, is 
-much more satisfying than any quantity of money that could ever be gained. If the system were interested in people 
-learning, then it would not charge more than the people who need education the most more than they could ever afford, 
-it would not be using half of a method used to educate people in a time before paper existed, and it would absolutely 
-be on top of using the best, most accurate methods known to science that our highly advanced technology is fully able
-to implement.
-
-Companies will eventually see the difference in the quality of knowledge, and mathematical skills, from people who use 
-this coming software, compared those who go to the "best" educational institutions. The public is going to take notice
-when people come from these institutions more often than not, have a much harder time gaining employment compared to 
-users of this software's educational resources. When everyone sees that the free option is the better option, these
-"educational institutions" will eventually have no customers, and all of these con artists will finally be out of the job.
+Companies will eventually see the difference in the quality of knowledge, and mathematical skills, from people who use this coming software, compared those who go to the "best" educational institutions. One reason for this is because many people who move up in corporations will be users of FreeClear themselves. The public is going to take notice when people come from these institutions more often than not, have a much harder time gaining employment compared to users of this software's educational resources. 
 
 
 
 
 
-    Welcome to the future.
+Welcome to the future.
