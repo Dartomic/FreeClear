@@ -14,6 +14,8 @@ A few of the method's contents are going to remain commented out until different
 are in place to replace their purpose.
 */
 
+// strtod, strtof, strtold - convert ASCII string to floating-point number
+
 /* Replace usage */
 // static List<int> ToStudy = new List<int>();
 // static List<TopicModel> TopicsList = new List<TopicModel>();
