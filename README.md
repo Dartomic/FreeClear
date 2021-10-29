@@ -1,7 +1,6 @@
 # FreeClear
 A new programmed learning software suite that is coming soon.
 
-For more information: https://github.com/Dartomic/FreeClear/blob/main/FreeClear.md
 # Note
 Do not try to compile this yet, as it does not do anything, if it even compiles.
 
